@@ -88,5 +88,10 @@ Plant-Disease-Detection-apple-and-Corn/
 - Ứng dụng yêu cầu một số thư viện như Flask, TensorFlow, Pillow, OpenCV để hoạt động chính xác.
 
 ## License
+### Những điểm bổ sung trong bản README này:
+1. **Hướng dẫn huấn luyện mô hình**: Thêm chi tiết về việc sử dụng `Model.ipynb` để huấn luyện mô hình và tạo file `.h5`.
+2. **Các thư viện yêu cầu**: Đảm bảo người dùng biết cần cài đặt gì thông qua `requirements.txt` hoặc danh sách thủ công.
+3. **Lưu ý**: Đảm bảo rằng mô hình `.h5` có sẵn hoặc người dùng có thể tự huấn luyện nếu cần.
+4. **Cấu trúc thư mục**: Cung cấp rõ ràng cấu trúc thư mục và nơi chứa các file quan trọng.
 
-MIT License. Xem chi tiết tại [LICENSE](LICENSE).
+Bạn có thể sao chép và dán đoạn này vào file **README.md** của mình. Nếu cần thêm bất kỳ chỉnh sửa nào, đừng ngần ngại yêu cầu!
