@@ -45,6 +45,8 @@ pip install Flask tensorflow pillow opencv-python
 
 Dự án này yêu cầu mô hình học máy được lưu trong file `best_b6_model.h5`. Bạn cần tải mô hình này từ nguồn đã cho hoặc huấn luyện mô hình của riêng bạn.
 
+- Nếu bạn chưa có mô hình, bạn có thể huấn luyện lại mô hình bằng cách sử dụng **`Model.ipynb`**. Đảm bảo rằng notebook này chạy đúng và tạo ra mô hình `.h5` cuối cùng.
+
 ### Bước 4: Chạy ứng dụng Flask
 
 ```bash
@@ -74,11 +76,17 @@ Plant-Disease-Detection-apple-and-Corn/
 ├── Model.ipynb           # Jupyter Notebook để huấn luyện mô hình
 ├── templates/            # Thư mục chứa file HTML (index.html)
 │   └── index.html        # Template chính của ứng dụng
-├── best_b6_model.h5      # Mô hình học máy
+├── best_b6_model.h5      # Mô hình học máy (nếu có sẵn)
 └── requirements.txt      # Các thư viện yêu cầu
 ```
 
 ## Lưu ý
 
-- Nếu không có mô hình, ứng dụng sẽ trả về dự đoán ngẫu nhiên.
-- Đảm bảo rằng mô hình `best_b6_model.h5` được đặt đúng vị trí trong thư mục gốc của dự án.
+- Nếu không có mô hình `best_b6_model.h5`, ứng dụng sẽ trả về dự đoán ngẫu nhiên. Đảm bảo rằng mô hình này được đặt đúng vị trí trong thư mục gốc của dự án.
+- Nếu bạn sử dụng **`Model.ipynb`** để huấn luyện mô hình, hãy đảm bảo rằng notebook này chạy đúng và tạo ra file mô hình `.h5`.
+- Để đảm bảo môi trường Python phù hợp, bạn có thể tạo một môi trường ảo (`virtualenv`) và cài đặt các thư viện từ `requirements.txt`.
+- Ứng dụng yêu cầu một số thư viện như Flask, TensorFlow, Pillow, OpenCV để hoạt động chính xác.
+
+## License
+
+MIT License. Xem chi tiết tại [LICENSE](LICENSE).
