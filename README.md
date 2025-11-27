@@ -93,5 +93,3 @@ Plant-Disease-Detection-apple-and-Corn/
 2. **Các thư viện yêu cầu**: Đảm bảo người dùng biết cần cài đặt gì thông qua `requirements.txt` hoặc danh sách thủ công.
 3. **Lưu ý**: Đảm bảo rằng mô hình `.h5` có sẵn hoặc người dùng có thể tự huấn luyện nếu cần.
 4. **Cấu trúc thư mục**: Cung cấp rõ ràng cấu trúc thư mục và nơi chứa các file quan trọng.
-
-Bạn có thể sao chép và dán đoạn này vào file **README.md** của mình. Nếu cần thêm bất kỳ chỉnh sửa nào, đừng ngần ngại yêu cầu!
